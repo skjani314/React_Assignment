@@ -42,26 +42,31 @@ const data = {
       title: "Dashboard",
       url: "#",
       icon: IconDashboard,
+      link:"/"
     },
     {
       title: "Lifecycle",
       url: "#",
       icon: IconListDetails,
+      link:"/lifecycle"
     },
     {
       title: "Analytics",
       url: "#",
       icon: IconChartBar,
+      link:"/analytics"
     },
     {
       title: "Projects",
       url: "#",
       icon: IconFolder,
+      link:"/project"
     },
     {
       title: "Team",
       url: "#",
       icon: IconUsers,
+      link:"/teams"
     },
   ],
   navClouds: [
