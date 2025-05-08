@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
 
-    <div className="bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="bg-gray-900 text-white">
 
     <SidebarProvider>
       <AppSidebar variant="inset" />
