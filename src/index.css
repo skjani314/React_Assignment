@@ -1,0 +1,14 @@
+.dark {
+    --popover: #1f2937; /* bg-gray-800 or similar */
+    --popover-foreground: #f9fafb; /* text-gray-100 or white */
+  }
+
+  :root {
+    --popover: white;
+    --popover-foreground: black;
+  }
+  
+  .dark {
+    --popover: #1f2937; /* gray-800 */
+    --popover-foreground: #f9fafb; /* gray-100 */
+  }

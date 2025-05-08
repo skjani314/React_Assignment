@@ -9,6 +9,8 @@ import data from "./data.json"
 
 export default function Page() {
   return (
+    <div className="bg-white dark:bg-gray-900 text-black dark:text-white">
+
     <SidebarProvider>
       <AppSidebar variant="inset" />
       <SidebarInset>
@@ -26,5 +28,6 @@ export default function Page() {
         </div>
       </SidebarInset>
     </SidebarProvider>
+    </div>
   )
 }
